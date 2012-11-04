@@ -6,7 +6,7 @@ else
   printf "ERROR: An RVM installation was not found.\n"
 fi
 
-rubies=( 1.8.6 1.8.7 1.9.2 )
+rubies=( 1.9.3 )
 gemset="hitch"
 
 for x in ${rubies[*]}; do
